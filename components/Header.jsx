@@ -1,4 +1,6 @@
 import React from 'react'
+import { ImFacebook, ImTwitter, ImYoutube } from "react-icons/im";
+import Link from 'next/link';
 
 export default function Header() {
   return (
@@ -8,13 +10,25 @@ export default function Header() {
                 <input className='input-text placeholder-slate-500' type="text" placeholder="Search..." />
             </div>
             <div className='shrink w-80 sm:order-2 '>
-                <a>Design</a>
+                <Link href={"/"}>
+                    <a className='uppercase font-bold text-3xl'>Design</a>
+                </Link>
+                
             </div>
             <div className='w-96 order-3 flex justify-center'>
                 <div className="flex gap-6">
-                    <a>Facebook</a>
-                    <a>Instagram</a>
-                    <a>Youtube</a>
+                <Link href={"/"}>
+                    <a><ImFacebook color='#888888'/></a>
+                </Link>
+                <Link href={"/"}>
+                    <a><ImTwitter color='#888888'/></a>
+                </Link>
+                <Link href={"/"}>
+                    <a><ImYoutube color='#888888'/></a>
+                </Link>
+                   
+                    
+                    
                 </div>
             </div>
         </div>
