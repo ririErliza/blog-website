@@ -22,10 +22,11 @@ export default function Section1() {
         <Swiper
             slidesPerView={1}
             >
-            <SwiperSlide> { Slide() }</SwiperSlide>
-            <SwiperSlide> { Slide() }</SwiperSlide>
-            <SwiperSlide> { Slide() }</SwiperSlide>
-            <SwiperSlide> { Slide() }</SwiperSlide>
+            <SwiperSlide> {Slide()}</SwiperSlide>
+            <SwiperSlide> {Slide()}</SwiperSlide>
+            <SwiperSlide> {Slide()}</SwiperSlide>
+            <SwiperSlide> {Slide()}</SwiperSlide>
+           
         
         </Swiper>
 
@@ -43,13 +44,13 @@ export default function Section1() {
 function Slide(){
     return (
         <div className="grid md:grid-cols-2">
-            <div className="image">
+            <div className="image md:mr-4">
                 <Link href={"/"}><a><Image className='object-cover' src={"/images/1.jpg"} width={600} height={600} alt="image"/></a></Link>
             </div>
             <div className="info flex justify-center flex-col">
                 <div className="cat">
                     <Link href={"/"}><a className="text-orange-600 hover:text-orange-800">Business, Travel</a></Link>
-                    <Link href={"/"}><a className="text-gray-800 hover:text-gray-600">- July 3, 2022</a></Link>
+                    <Link href={"/"}><a className="text-gray-800 hover:text-gray-600">-July 3, 2022</a></Link>
                 </div>
                 <div className="title">
                     <Link href={"/"}><a className="text-2xl md:text-5xl font-bold text-gray-800 hover:text-gray-600">Your most unhappy customers are your greatest source of learning</a></Link>
