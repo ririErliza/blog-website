@@ -43,7 +43,7 @@ export default function Section1() {
 function Slide(){
     return (
         <div className="grid md:grid-cols-2">
-            <div className="image mr-10">
+            <div className="image">
                 <Link href={"/"}><a><Image className='object-cover' src={"/images/1.jpg"} width={600} height={600} alt="image"/></a></Link>
             </div>
             <div className="info flex justify-center flex-col">
