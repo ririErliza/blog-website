@@ -21,7 +21,7 @@ export default function Footer() {
                       <Link href={"/"}><a><ImYoutube color="#888888" /></a></Link>
                 </div>
   
-                <p className="py-5 text-gray-400">Copyright ©2022 All rights reserved | This template is made with  by Daily Tuition</p>
+                <p className="py-5 text-gray-400 text-center">Copyright ©2022 All rights reserved | This template is made with  by Daily Tuition</p>
                 <p className="text-gray-400 text-center">Terms & Condition</p>
             </div>
         </div>
