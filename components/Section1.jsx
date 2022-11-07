@@ -47,7 +47,7 @@ export default function Section1() {
 
 function Slide(){
     return (
-        <div className="grid md:grid-cols-2">
+        <div className="grid md:grid-cols-2 mx-2">
             <div className="image md:mr-4">
                 <Link href={"/"}><a><Image className='object-cover' src={"/images/1.jpg"} width={600} height={600} alt="image"/></a></Link>
             </div>

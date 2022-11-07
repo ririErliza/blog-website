@@ -9,7 +9,7 @@ export default function Section2() {
 
 
     {/* grid columns */}
-    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-14">
+    <div className="grid mx-2 md:grid-cols-2 lg:grid-cols-3 gap-14">
             { Post() }
             { Post() }
             { Post() }
