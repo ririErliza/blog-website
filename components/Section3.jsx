@@ -38,7 +38,7 @@ function Post(){
                     <Link href={"/"}><a className="text-gray-800 hover:text-gray-600">- July 3, 2022</a></Link>
                 </div>
                 <div className="title">
-                    <Link href={"/"}><a className="text-3xl md:text-4xl font-bold text-gray-800 hover:text-gray-600">Your most unhappy customers are your greatest source of learning</a></Link>
+                    <Link href={"/"}><a className="text-2xl md:text-3xl font-bold text-gray-800 hover:text-gray-600">Your most unhappy customers are your greatest source of learning</a></Link>
                 </div>
                 <p className="text-gray-500 py-3">
                     Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind 
